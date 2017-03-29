@@ -2079,7 +2079,7 @@ Sensors::rc_poll()
 //            _rc.channels[0] = den_data[sim_num++] * 0.3;//_rc.channels[0]
 //            _rc.channels[1] = den_data[sim_num++] * 0.3;//_rc.channels[1]
 //            _rc.channels[2] = den_data[sim_num++] * 0.3;//_rc.channels[2]
-            _rc.channels[3] = den_data[sim_num++] * 0.3;//_rc.channels[3]
+            _rc.channels[3] = den_data[sim_num++];//_rc.channels[3]
         } else {
             sim_num = 0;
             sim_i = 0;
